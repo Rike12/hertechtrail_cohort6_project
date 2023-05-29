@@ -92,7 +92,7 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-  color: #ff0077;
+  color: #ff7e67;
   outline: 0;
 }
 
@@ -342,7 +342,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #ff0077;
+  background: #ff7e67;
   position: absolute;
   left: -17px;
   top: 11px;
@@ -1356,7 +1356,7 @@ header .logo a {
 }
 .main-navigation li.current > a {
   background: none;
-  color: #ff0077;
+  color: #ff7e67;
 }
 
 /**
@@ -1435,7 +1435,7 @@ header .logo a {
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .intro-content h5 {
-  color: #cc005f;
+  color: #ff7e67;
   font-family: "poppins-bold", sans-serif;
   font-size: 2.3rem;
   line-height: 1.565;
@@ -1483,7 +1483,7 @@ header .logo a {
 }
 .intro-content .button:hover,
 .intro-content .button:focus {
-  border-color: #cc005f;
+  border-color: #ff7e67;
 }
 .intro-content .button::after {
   display: inline-block;
