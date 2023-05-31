@@ -63,8 +63,8 @@ html {
     font-size: 9.411764705882353px;
   }
 }
-.favicon{
-  background :#000000
+.favicon img{
+  background-color:#000000;
 }
 
 html,
