@@ -63,8 +63,8 @@ html {
     font-size: 9.411764705882353px;
   }
 }
-.favicon img{
-  background-color:#000000;
+.favicon img {
+  background-color: #000000;
 }
 
 html,
@@ -353,7 +353,7 @@ ul.disc li::before {
 }
 dt {
   margin: 0;
-  color:#ff7e67 ;
+  color: #ff7e67;
 }
 dd {
   margin: 0 0 0 2rem;
@@ -783,6 +783,7 @@ button.stroke,
   background: transparent !important;
   border: 3px solid #111111;
   color: #000000;
+  justify-content: center;
   line-height: 4.8rem;
 }
 button.stroke.medium,
@@ -1142,7 +1143,7 @@ input::-moz-focus-inner {
   margin-bottom: 1.2rem;
 }
 .section-intro h5 {
-  color:#ff7e67;
+  color: #ff7e67;
   font-size: 1.6rem;
   line-height: 1.875;
   margin-bottom: 0.3rem;
@@ -1195,7 +1196,7 @@ header .row {
 }
 header .top-bar {
   display: block;
-  background:#161818 ;
+  background: #161818;
   min-width: 220px;
   min-height: 66px;
   position: absolute;
@@ -1294,7 +1295,7 @@ header .logo a {
 
 /* is clicked */
 .menu-toggle.is-clicked span {
-  background-color:#761a1a ;
+  background-color: #761a1a;
 }
 .menu-toggle.is-clicked span::before,
 .menu-toggle.is-clicked span::after {
@@ -1354,7 +1355,7 @@ header .logo a {
   border: none;
 }
 .main-navigation li a:hover {
-  color: #3a7563;;
+  color: #3a7563;
   padding-left: 1rem;
 }
 .main-navigation li.current > a {
@@ -1594,7 +1595,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-  background:#1c4444;
+  background: #1c4444;
   padding-top: 12rem;
   padding-bottom: 15rem;
 }
@@ -1718,8 +1719,6 @@ header .logo a {
     text-align: center;
   }
 }
-
-
 
 /** 
  * ===================================================================
@@ -2026,8 +2025,6 @@ header .logo a {
   }
 }
 
-
-
 /** 
  * ===================================================================
  * 17. contact - (_layout.scss)
@@ -2035,7 +2032,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #contact {
-  background:#39627f ;
+  background: #39627f;
   padding-top: 12rem;
   padding-bottom: 7.2rem;
 }
@@ -2043,8 +2040,8 @@ header .logo a {
   color: white;
 }
 #contact .section-intro h5 {
-  color: #ff7e67; 
-};
+  color: #ff7e67;
+}
 
 #contact .section-intro p {
   color: rgba(255, 255, 255, 0.7);
@@ -2153,8 +2150,8 @@ header .logo a {
   background: #ff7e67;
   color: #ffffff;
 }
-#contact button.submitform:hover{
-  background:#c59c9c ;
+#contact button.submitform:hover {
+  background: #c59c9c;
 }
 #message-warning,
 #message-success {
@@ -2169,7 +2166,7 @@ header .logo a {
   color: #fa0003;
 }
 #message-success {
-  color:#ff7e67;
+  color: #ff7e67;
 }
 #message-warning i,
 #message-success i {
@@ -2217,7 +2214,7 @@ header .logo a {
 .contact-info h5 {
   color: #ff7e67;
 }
-.contact-info p{
+.contact-info p {
   color: rgba(255, 255, 255, 0.7);
 }
 /**
