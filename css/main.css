@@ -1519,7 +1519,7 @@ header .logo a {
 }
 .intro-social li a:hover,
 .intro-social li a:focus {
-  color: #5d91d6;
+  color: rgb(192, 162, 103);
 }
 
 /**
@@ -2147,11 +2147,11 @@ header .logo a {
   padding: 0 3rem;
   margin-top: 4.8rem;
   width: 100%;
-  background: rgb(192, 162, 103);
+  background:rgb(192, 162, 103);
   color: #ffffff;
 }
 #contact button.submitform:hover {
-  background: #1a2c3b;
+  background: #707070;
 }
 #message-warning,
 #message-success {
