@@ -81,7 +81,7 @@ body {
  */
 a,
 a:visited {
-  color: #000000;
+  color:#ffffff;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1186,24 +1186,27 @@ input::-moz-focus-inner {
     display:flex;
     justify-content:space-evenly;
     padding-top: 10px;
-    width: 98%;
+    background: #1a2c3b;
+    max-width: 98%;
     margin:auto;
 }
 nav.logo{
-    height: 150px;
-    width: 150px;
+    width: 50px;
+    padding-top: 20px;
 }
-nav.logo img{
-    width: 100%;
+.logo img{
     object-fit: contain;
     margin-right: 12px;
     margin: 10px;
+    width: 50px;
+ 
 }
 .menu{
     width: 100%; 
     justify-content: space-around;
 }
 .menu ul{
+  padding-top: 10px;
     display: flex;
     justify-content: space-around;
     width: 100%  
