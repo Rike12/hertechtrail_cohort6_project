@@ -68,7 +68,7 @@ body {
   height: 100%;
 }
 body {
-  background: #151515;
+  background: #000000;
   font-family: "lora-regular", serif;
   font-size: 1.7rem;
   line-height: 3rem;
@@ -81,12 +81,14 @@ body {
  */
 a,
 a:visited {
-  color:#ffffff;
+  color:#000000;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  font-size: larger;
+  font-weight: bold;
 }
 a:hover,
 a:focus,
@@ -1186,7 +1188,7 @@ input::-moz-focus-inner {
     display:flex;
     justify-content:space-evenly;
     padding-top: 10px;
-    background: #1a2c3b;
+    background:rgb(192, 162, 103);
     max-width: 98%;
     margin:auto;
 }
@@ -1198,7 +1200,7 @@ nav.logo{
     object-fit: contain;
     margin-right: 12px;
     margin: 10px;
-    width: 50px;
+    width: 30px;
  
 }
 .menu{
@@ -1209,19 +1211,19 @@ nav.logo{
   padding-top: 10px;
     display: flex;
     justify-content: space-around;
-    width: 100%  
+    width: 100%;
 
 }
 .menu ul li{
     list-style: none;
     padding: 15px;
     margin: 10px;
-
+    
+  
 }
 .menu ul li a{
-    color:#ffffff;
+   
     text-decoration: none;
-    font-size:20px;  
 }
 /** 
  * ===================================================================
@@ -1230,13 +1232,13 @@ nav.logo{
  * ------------------------------------------------------------------- 
  */
 #intro {
-  background: url(../images/background1.png) no-repeat center bottom;
+  background: url(../images/backgroundd.png) no-repeat center bottom;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
-  height: 100%;
+  height: 80%;
   min-height: 720px;
   display: table;
   position: relative;
@@ -1248,7 +1250,6 @@ nav.logo{
   left: 0;
   width: 100%;
   height: 100%;
- 
   opacity: 0.85;
 }
 
@@ -1260,6 +1261,9 @@ nav.logo{
   -ms-transform: translateY(-2.1rem);
   transform: translateY(-2.1rem);
 }
+.row{
+  padding-bottom: 90px;
+}
 .intro-content h1 {
   color: #ffffff;
   font-family: "poppins-medium", sans-serif;
@@ -1267,7 +1271,7 @@ nav.logo{
   line-height: 1.071;
   max-width: 840px;
   margin-top: 0;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.5rem;
   margin-left: auto;
   margin-right: auto;
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -1339,7 +1343,7 @@ nav.logo{
   position: absolute;
   width: 100%;
   left: 0;
-  bottom: 7.2rem;
+  bottom: 4.2rem;
   font-size: 3.3rem;
   margin: 0;
   padding: 0;
@@ -1347,7 +1351,7 @@ nav.logo{
 .intro-social li {
   display: inline-block;
   margin: 0 20px;
-  padding: 0;
+  padding-bottom: 50px;
 }
 .intro-social li a,
 .intro-social li a:visited {
@@ -1429,7 +1433,7 @@ nav.logo{
  * ------------------------------------------------------------------- 
  */
 #about {
-  background: #1a2c3b;
+  background: #30465b;
   padding-top: 12rem;
   padding-bottom: 15rem;
 }
