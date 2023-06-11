@@ -81,7 +81,7 @@ body {
  */
 a,
 a:visited {
-  color:#000000;
+  color:#dad9d9;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -93,7 +93,7 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-  color: rgb(192, 162, 103);
+  color: #000000;
   outline: 0;
 }
 
@@ -1188,7 +1188,7 @@ input::-moz-focus-inner {
     display:flex;
     justify-content:space-evenly;
     padding-top: 10px;
-    background:rgb(192, 162, 103);
+    background:rgb(115, 100, 69);
     max-width: 98%;
     margin:auto;
 }
@@ -1848,7 +1848,7 @@ nav.logo{
   color: #313131;
 }
 .section-ads span {
-  color: #3f0d39;
+  color: #ffffff;
 }
 
 /**
