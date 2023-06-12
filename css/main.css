@@ -1186,11 +1186,10 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- 
  */
 
- .header{ 
-  min-height: 66px;
-  background: #0e1822;
+ .header{
+    background: #192735;
+    max-height:66px
 }
-
 li {
     list-style: none;
 }
@@ -1198,67 +1197,65 @@ li {
 a {
     text-decoration: none;
 }
-.nav-menu li a {
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  display: block;
-}
-
-
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 0.5rem;
+   
 }
 
+.nav-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #475569;
+}
+
+.nav-link:hover{
+    color: rgb(192, 162, 103);
+}
 .hamburger {
     display: none;
-    margin-right: 30px;
-    padding-bottom: 5px;
-    cursor: pointer;
 }
 
 .bar {
     display: block;
-    width: 30px;
+    width: 25px;
     height: 3px;
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: rgb(199, 157, 73);
-    
+    background-color: rgb(192, 162, 103);
 }
-
 .nav-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .nav-item {
     margin-left: 5rem;
+    padding-right: 40px;
 }
 
-
-.navbar img {
+.logo {
     width:40px;
-  padding-top: 5px;
-    padding-bottom: 15px;
-  
+    padding-bottom: 4px;
+    position: relative;
+
+
 }
-/* 48em = 768px */
 @media only screen and (max-width: 768px) {
     .nav-menu {
-        position: absolute;
+        position: fixed;
         left: -100%;
-        display: block;
-        top: 5rem;
-        flex-direction: column; 
-        width: 100%;
+        top: 4rem;
+        flex-direction:row;
+        width:76%;
+        font-size: 14px;
         border-radius: 10px;
-        text-align: center;
+        text-align:center;  
         transition: 0.3s;
         box-shadow:
             0 10px 27px rgba(0, 0, 0, 0.05);
@@ -1266,7 +1263,6 @@ a {
 
     .nav-menu.active {
         left: 0;
-        display: block;
     }
 
     .nav-item {
@@ -1276,21 +1272,16 @@ a {
     .hamburger {
         display: block;
         cursor: pointer;
+        padding-top: 4px;
     }
-
-    .hamburger.active .bar:nth-child(2) {
-        opacity: 0;
+    .logo{
+      padding-top: 10px;
+      width:20px
     }
+  }
+    
 
-    .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-
-    .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    }
-
-}
+   
 
 
 /** 

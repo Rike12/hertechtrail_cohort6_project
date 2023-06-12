@@ -148,15 +148,14 @@ function mobileMenu() {
     navMenu.classList.toggle("active");
 }
 
-   // nav items
-  	nav.find('li a').on("click", function() {   
+const navLink = document.querySelectorAll(".nav-link");
 
-   	// update the toggle button 		
-   	toggleButton.toggleClass('is-clicked'); 
-   	// fadeout the navigation panel
-   	nav.fadeOut();   		
-   	     
-  	});
+navLink.forEach((n) => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
+}
 
 
    /*---------------------------------------------------- */
