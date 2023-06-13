@@ -149,12 +149,7 @@ function mobileMenu() {
 
 }
 
-onClick.addEventListener("click", closeham);
 
-function closeham() {
-  menu.classList.toggle("active");
-  hamburger.classList.toggle("active");
-}
 
 
 
