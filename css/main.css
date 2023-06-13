@@ -1276,11 +1276,12 @@ input::-moz-focus-inner {
 
   .menu{
     position:fixed;
-    left:-60%;
+    left:-100%;
     top:70px;
     gap:5px;
     flex-direction: row;
     width:50%;
+  margin-left: 40px;
     text-align: center;
     transition: 0.3s;
   
