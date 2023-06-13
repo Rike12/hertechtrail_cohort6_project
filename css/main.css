@@ -1274,14 +1274,19 @@ input::-moz-focus-inner {
   
  }
  .hamburger.active.bar:nth-child(2){
-opacity: 0;
+transform: translateX(-50px);
+background: rgb(192, 162, 103);
  }
-hamburger.active.bar:nth-child(1){
-transform: translateY(8px) rotate(45deg );
+.hamburger.active.bar:nth-child(1){
+transform: translateY(13px) rotate(45deg );
  }
-hamburger.active.bar:nth-child(3){
-transform: translateY(-8px) rotate(-45deg );
+.hamburger.active.bar:nth-child(3){
+transform: translateY(-13px) rotate(-45deg );
  }
+ .hamburger:active{
+  transition: 1s;
+ }
+
 
 
  .nav-menu{
