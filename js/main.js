@@ -139,20 +139,19 @@
    ------------------------------------------------------ */  
    
 const hamburger= document.querySelector(".hamburger");
-const menu=document.querySelector(".menu");
-
-hamburger.addEventListener("click", mobileMenu);
-
-function mobileMenu() {
-  hamburger.classList.toggle("active");
-  menu.classList.toggle("active");
-
-}
+const navItem= document.querySelectorAll(".nav-Item");
 
 
+hamburger.addEventListener("click", () =>{
+	hamburger.classList.toggle("active");
+	navMenu.classList.toggle("active");
+})
 
-
-
+document.querySelectorAll(".nav-link").forEach(n =>n
+	.addEventListener("click",() =>{
+		hamburger.classList.remove("active");
+		navMenu.classList.remove("active");
+	}))
 
    /*---------------------------------------------------- */
   	/* Highlight the current section in the navigation bar
