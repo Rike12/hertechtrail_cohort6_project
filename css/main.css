@@ -1199,7 +1199,7 @@ input::-moz-focus-inner {
  }
 
  a{
-  color:#f1f1f1;
+  color:#b9a8a8;
   text-decoration: none;
   
  }
@@ -1233,7 +1233,6 @@ input::-moz-focus-inner {
   align-items: center;
   
  
-  
  }
 
 .hamburger{
@@ -1290,12 +1289,10 @@ transform: translateY(-13px) rotate(-45deg );
 
 
  .nav-menu{
-  position:fixed;
+  position:absolute;
   left:-100%;
   gap:0;
-  
-  background-color: #000;
-  display:block;
+  top:70px;
   flex-direction:row;
   width: 100%;
   text-align: center;
