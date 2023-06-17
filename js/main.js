@@ -118,35 +118,41 @@
   /*-----------------------------------------------------*/
   /* Navigation Menu
    ------------------------------------------------------ */
-  const hamburger= document.querySelector(".hamburger");
-  const navMenu = document.querySelector(".nav-menu");
+     var toggleButton = $(".menu-toggle"),
+       nav = $(".main-navigation");
 
-hamburger.addEventListener("click", ()=>{
-  hamburger.classList.toggle("active");
-  navMenu.classList.toggle("active");
-})
+     // toggle button
+     toggleButton.on("click", function (e) {
+       e.preventDefault();
+       toggleButton.toggleClass("is-clicked");
+       nav.slideToggle();
+     });
 
-document.querySelectorAll("nav-link").forEach(n => n.
-  addEventListener("click",() =>{
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-  }))
+     // nav items
+     nav.find("li a").on("click", function () {
+       // update the toggle button
+       toggleButton.toggleClass("is-clicked");
+       // fadeout the navigation panel
+       nav.fadeOut();
+     });
+
+
   /*---------------------------------------------------- */
   /* Highlight the current section in the navigation bar
   	------------------------------------------------------ */
   var sections = $("section"),
-    navigation_links = $("#main-nav-wrap li a");
+    navigation_links = $(".main-navigation li");
 
   sections.waypoint({
     handler: function (direction) {
       var active_section;
 
-      active_section = $("section#" + this.element.id);
+      active_section = $("section#" + this.element.class);
 
       if (direction === "up") active_section = active_section.prev();
 
       var active_link = $(
-        '#main-nav-wrap a[href="#' + active_section.attr("id") + '"]'
+      '.main-navigation li[href="#' + active_section.attr("class") + '"]'
       );
 
       navigation_links.parent().removeClass("current");
