@@ -147,12 +147,12 @@
     handler: function (direction) {
       var active_section;
 
-      active_section = $("section#" + this.element.class);
+      active_section = $("section#" + this.element.id);
 
       if (direction === "up") active_section = active_section.prev();
 
       var active_link = $(
-      '.main-navigation li[href="#' + active_section.attr("class") + '"]'
+      '.main-navigation li[href="#' + active_section.attr("id") + '"]'
       );
 
       navigation_links.parent().removeClass("current");

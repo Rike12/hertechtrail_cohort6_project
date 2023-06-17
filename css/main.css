@@ -1204,27 +1204,21 @@ header .top-bar {
 	min-width: 140px;
 	min-height: 66px;
 	position: fixed;
-	left: 90px;
+	left: 10px;
 	top: 0;
 }
 header .logo {
 	float: left;
-	margin-left: 20px;
+	margin-left: 40px;
 	margin-right: 30px;
-	margin-top: 5px;
+	margin-top: 15px;
 	position: relative;
 }
 header .logo a {
 	display: block;
 	margin: 0;
-	padding: 0;
-	border: none;
-	font: 0/0 a;
-	text-shadow: none;
-	color: transparent;
-	width: 65px;
+	width: 45px;
 	height: 50px;
-	background: url("../images/OT.png") no-repeat center;
 	background-size: 65px 50px;
 }
 
@@ -1234,7 +1228,7 @@ header .logo a {
  */
 .menu-toggle {
 	float: left;
-	width: 40px;
+	width: 45px;
 	height: 40px;
 	margin-left: 20px;
 	margin-top: 13px;
@@ -1301,7 +1295,7 @@ header .logo a {
 	background-color: rgba(255, 0, 119, 0);
 }
 .menu-toggle.is-clicked span::before, .menu-toggle.is-clicked span::after {
-	background-color: #9b7203;
+	background-color: rgb(192, 162, 103);
 	-moz-transition-delay: 0s, 0.2s;
 	-o-transition-delay: 0s, 0.2s;
 	-webkit-transition-delay: 0s, 0.2s;
@@ -1357,12 +1351,12 @@ header .logo a {
 	border: none;
 }
 .main-navigation li a:hover {
-	color: #9b7203;
+	color:rgb(192, 162, 103);
 	padding-left: 1rem;
 }
 .main-navigation li.current > a {
 	background: none;
-	color: #9b7203;
+	color: rgb(192, 162, 103);
 }
 
 /**
@@ -1433,9 +1427,9 @@ header .logo a {
 .intro-content h1 {
   color: #ffffff;
   font-family: "poppins-medium", sans-serif;
-  font-size: 8.4rem;
+  font-size: 7.4rem;
   line-height: 1.071;
-  max-width: 840px;
+  max-width: 800px;
   margin-top: 0;
   margin-bottom: 0.5rem;
   margin-left: auto;
