@@ -1668,7 +1668,13 @@ header .logo a {
 .button-section [class*="col-"] .button:first-child {
   margin-right: 4rem;
 }
-
+p.lead {
+  font-family: "lora-regular", serif;
+  font-size: 2rem;
+  line-height: 1.8;
+  text-align: justify;
+  color: #888888;
+}
 /**
  * responsive:
  * about
